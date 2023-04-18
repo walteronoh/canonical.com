@@ -242,7 +242,7 @@ $p-small-lh-diff: map-get($line-heights, default-text) - map-get($line-heights, 
 }
 
 .p-navigation__dropdown
-  > li:not(:last-child)
+  > li:not(:first-child)
   > .p-navigation__dropdown-item::before {
   background: rgba(255 255 255 / 10%);
   bottom: 0;
